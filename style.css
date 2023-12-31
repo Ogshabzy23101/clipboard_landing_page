@@ -97,6 +97,10 @@ p {
  margin: 20px 0;
 }
 
+.button:hover {
+ cursor: pointer;
+}
+
 .btn-1 {
 
  background-color: rgb(46, 182, 148);
@@ -342,16 +346,26 @@ li {
  text-decoration: none;
  margin: 2rem 0;
 }
-
+a:hover{
+ cursor: pointer;
+ color: var(--strongCyan);
+}
 .icons {
  display: flex;
  flex-direction: row;
  width: 100%;
 }
 
-.icons img {
- width: 20px;
+.icons i {
+ text-align: center;
+ margin: auto;
+ font-size: 1.5rem;
 }
+
+.icons i:hover{
+ color: var(--strongCyan);
+} 
+
 
 @media screen and (min-width:800px) {
  footer {
@@ -411,7 +425,7 @@ li {
 .attribution {
  position: absolute;
  bottom: 0;
-left: 15vw;
+ left: 15vw;
  font-size: 11px;
  text-align: center;
 }
